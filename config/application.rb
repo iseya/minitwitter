@@ -22,3 +22,6 @@ module Minitwitter
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
 end
+
+for heroku deploy
+config.assets.initialize_on_precompile = false
