@@ -42,4 +42,4 @@ gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets'
 
 gem 'coffee-script-source', '1.8.0'
-gem 'bcrypt-ruby'
+gem 'bcrypt'
