@@ -43,3 +43,8 @@ gem 'sprockets'
 
 gem 'coffee-script-source', '1.8.0'
 gem 'bcrypt'
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
