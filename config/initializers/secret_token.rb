@@ -13,4 +13,4 @@ def secure_token
   end
 end
 
-MinitwitterApp::Application.config.secret_key_base = secure_token
+Minitwitter::Application.config.secret_key_base = secure_token
